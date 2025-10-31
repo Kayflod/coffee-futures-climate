@@ -1,2 +1,7 @@
-# coffee-futures-climate
-DSA210 Project: Climate Impact on Coffee Futures Prices
+# Climate Impact on Coffee Futures Prices
+
+This project explores the relationship between weather conditions in Brazil’s top two coffee-producing regions — Minas Gerais and São Paulo — and the Coffee C Futures prices traded on the New York Intercontinental Exchange (ICE). Coffee production in these regions is highly sensitive to climate variability, particularly changes in temperature, rainfall, and frost events. The aim is to understand how regional climate patterns translate into price fluctuations in the international coffee futures market.
+
+The study uses historical Coffee C Futures data (ticker `KC=F`) collected via the `yfinance` Python library and meteorological data from the NASA POWER API for the period 2010–2025. The dataset will include monthly averages of temperature, precipitation, and frost-related variables. Both direct and lagged (1–3 month) effects of weather anomalies on futures prices will be analyzed to capture the delayed influence of climate stress on production and market response.
+
+Finally, the project will apply machine learning models to forecast future coffee futures prices based on climatic indicators. Model performance will be evaluated using metrics such as RMSE and R². By linking environmental and financial data, this project aims to demonstrate how climate risk in Brazil’s agricultural sector can predict and explain volatility in global coffee futures markets.
