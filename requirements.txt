@@ -1,0 +1,7 @@
+pandas
+yfinance
+requests
+matplotlib
+seaborn
+scipy
+openpyxl
