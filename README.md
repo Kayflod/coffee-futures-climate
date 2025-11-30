@@ -35,6 +35,9 @@ The statistical analysis yielded the following insights:
 
 * **Lagged Correlation:** No strong linear correlation was found between monthly rainfall and prices with a 2-month lag (Pearson r: **0.06**). This implies that the relationship is likely non-linear or driven by extreme events rather than monthly averages.
 
+![Proje Grafikleri](data_visualization1.png)
+![Proje Grafikleri](data_visualization2.png)
+
 ## Limitations & Future Work
 * **Time Aggregation:** Using monthly averages smoothens out extreme daily weather events (like sudden frost) which often cause immediate price spikes.
 * **Market Complexity:** Futures prices are influenced by global supply chains, currency exchange rates (BRL/USD), and speculation, not just local weather.
